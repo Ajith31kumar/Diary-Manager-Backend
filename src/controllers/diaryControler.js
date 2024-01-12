@@ -148,31 +148,6 @@ const deleteDiary = async (req, res) => {
     }
 };
 
-// const searchDiaryByName = async (req, res) => {
-//     try {
-//       const { title } = req.query // Retrieve the title from query parameters
-//      console.log(title)
-//       if (!title) {
-//         return res.status(400).send({ message: 'Diary title is required for searching' });
-//       }
-  
-//       const diary = await diaryModel.find({ title:title});
-//       console.log(diary)
-//       res.status(200).send({
-//         message: `Diaries matching the title '${title}' fetched successfully`,
-//         diary
-       
-//       });
-//       console.log(diary)
-//     } catch (error) {
-//       res.status(500).send({
-//         message: 'Internal Server Error',
-//         error: error.message,
-//       });
-//     }
-//   };
-
-
 export default{
     createDiary,
     editDiary,
