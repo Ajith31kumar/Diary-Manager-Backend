@@ -54,4 +54,4 @@ This repository contains the backend codebase for the Diary Manager project. It 
    
 ###  __📝Frontend code__ :
 
-    https://github.com/Ajith31kumar/Diary-Manager-Backend.git
+   https://github.com/Ajith31kumar/Diary-Manager-Frondend.git
