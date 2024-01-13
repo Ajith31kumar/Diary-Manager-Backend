@@ -8,7 +8,7 @@ import mongoose from 'mongoose'
 
 dotenv.config()
 try {
-    mongoose.connect(`${process.env.dbUrl}/${process.env.dbName}`)
+    mongoose.connect(`${process.env.dbUrl}`)
    console.log("mongooDB coneccted")
     
 } catch (error) {
