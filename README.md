@@ -46,7 +46,7 @@ This repository contains the backend codebase for the Diary Manager project. It 
 
 5. __Live Demo__ :
 
-         https://wondrous-starburst-389739.netlify.app/
+         https://incredible-souffle-1f857e.netlify.app/login
 
 6. __Postman__ :
 
